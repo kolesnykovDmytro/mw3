@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Редактирование</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="edit-container">
+		
+		<!-- begin header -->
+		<div class="header">
+			<header class="main-header">
+				<div class="wrap">
+					<div class="logo">
+						<a href="#"><img src="img/logo.png" class="img-responsive" alt="logo image"></a>
+					</div>
+					<div class="user__data">
+						<div class="data__logo"></div>
+						<div class="data__name">Константин Константинович</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<!-- end header -->
+
+		<!-- begin edit__content -->
+		<section class="edit__content">
+			<div class="wrap">
+
+				<div class="title">Редактирование</div>
+				<div class="edit__btns">
+					<button class="btn btn__edit is-active">Личная информация</button>
+					<button class="btn btn__edit">изменение пароля</button>
+				</div>
+				
+				<!-- begin edit__user -->
+				<div class="edit__user" style="display: none;">
+					<div class="user__inner">
+						<div class="user__logo"></div>
+						<div class="user__form">
+							<form action="#" class="form">
+								<div class="form__group">
+									<input type="text" class="input__item" placeholder="Имя">
+								</div>
+								<div class="form__group">
+									<input type="text" class="input__item" placeholder="Фамилия">
+								</div>
+								<div class="form__group">
+									<input type="text" class="input__item" placeholder="Ник в Телеграм">
+								</div>
+
+							</form>
+							
+							<div class="edit__btn">
+								<button class="btn">сохранить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end edit user -->
+
+
+				<!-- begin edit__user -->
+				<div class="edit__user user-info">
+					<div class="user__inner">
+						<div class="container__logo">
+							<div class="user__logo">
+								<div class="edit-icon"><a href="#" class="col-edit"></a></div>
+							</div>
+						</div>
+						<div class="user__form">
+							<form action="#" class="form">
+								<div class="form__group">
+									<input type="text" class="input__item" placeholder="Имя">
+								</div>
+								<div class="form__group">
+									<input type="text" class="input__item" placeholder="Фамилия">
+								</div>
+								<div class="form__group">
+									<input type="text" class="input__item" placeholder="Ник в Телеграм">
+								</div>
+
+								<div class="form__group group-radio">
+									<div class="radio__item">
+										<input type="radio" id="is-men" name="radio-category" checked/>
+										<label class="radio-img img-men" for="is-men"></label>
+									</div>
+									<div class="radio__item">	
+										<input type="radio" id="is-women" name="radio-category" />
+										<label class="radio-img img-women" for="is-women"></label>
+									</div>
+								</div>
+
+							</form>
+							
+							<div class="edit__btn">
+								<button class="btn">сохранить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end edit user -->
+			</div>
+		</section>
+		<!-- end edit__content -->
+
+		<!-- begin footer -->
+		<div class="footer">
+			<footer class="main-footer">
+				<div class="wrap">
+					<div class="social-btn">
+						<a href="https://www.facebook.com/messages/t/app.pride" class="btn__link fb" target="blanc"></a>
+						<a href="http://t.me/pridesupport_bot" class="btn__link tl" target="blanc"></a>
+						<a href="mailto:support@pride.network" class="btn__link mail" target="blanc"></a>
+					</div>
+					<div class="link">
+						<a href="#">Политика конфиденциальности</a>
+						<a href="#">Согласие с рассылкой</a>
+						<a href="#">Дисклеймер</a>
+					</div>
+					<div class="logo">
+						<a href="http://pride.network/">
+							<img src="img/logo2.png" alt="logo company" class="img-responsive">
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- end footer -->
+
+	</div>
+	
+</body>
+</html>
